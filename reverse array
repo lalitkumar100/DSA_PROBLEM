@@ -1,0 +1,7 @@
+class Solution {
+    public static ArrayList<Integer> reverseSubArray(ArrayList<Integer> arr, int l,
+                                                     int r) {
+        // code here
+                    Collections.reverse(arr.subList(l-1,r));
+          return arr;                                                                                                            }
+}
